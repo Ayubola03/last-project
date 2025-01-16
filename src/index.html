@@ -14,7 +14,7 @@
     <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Example Dessert Item -->
       <template x-for="item in items" :key="item.id">
-        <div class="border rounded-2xl shadow-sm  ">
+        <div class="border rounded-3xl shadow-sm  ">
           <img :src="item.image" alt="Dessert" class="rounded-t-lg w-full h-40 object-cover">
           <div class="p-4">
             <h2 class="text-lg font-medium" x-text="item.name"></h2>
